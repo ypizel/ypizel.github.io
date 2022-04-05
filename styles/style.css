@@ -1,0 +1,58 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high  */
+  font-family: "IM Fell English SC", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  background-color: #630c0c;
+}
+
+body {
+  width: 1160px;
+  margin: 35px auto;
+  background-color: #ec8401;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+  letter-spacing: 35px;
+  color: darkred;
+  padding: 20px;
+  text-shadow: -3px 2px 3px black;
+}
+
+p, li {
+  color: black;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-shadow: -3px 2px 7px black;
+}
+
+img[src="images/dota2-items.jpg"] {
+  display: block;
+  margin: 0 auto;
+  width: 1150px;
+  height: 580px;
+  border: 5px double #630c0c;
+}
+
+img[src = "images/Magic(1).png"] {
+  display: block;
+  margin: 0 auto;
+  width: 1150px;
+  height: 580px;
+  border: 5px double #630c0c;
+}
+
+img[src = "images/magic(4).jpg"] {
+  display: block;
+  margin: 0 auto;
+  width: 1150px;
+  height: 580px;
+  border: 5px double #630c0c;
+}
+
+.aloha {
+  border: 5px double darkred;
+}
